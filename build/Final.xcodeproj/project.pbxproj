@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B667B2CFA20443C18D9BC722 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 623E29655CB044D29BF1BF85 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				133E798E9A30566A06AD94AF /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		C9B594E14AAF43F4925CAAA9 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F7194794AB2E47C2B5B0AC07 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				EB9AEC8EC68C08222FD5E990 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				65EE7FC2D09740A888DF0EFD /* PBXTargetDependency */,
+				991964406E4A4085AD75B40F /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		15287BF01B504A129F20B488 /* GLSL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33EB1EC0953C476FB527E319 /* GLSL.cpp */; };
+		3EB6E5E613A94019B4FC5349 /* Program.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2FD463176334A4CBADD68CD /* Program.cpp */; };
+		57EDDC1FCE0C4A20A1FD7B43 /* MatrixStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E354654A748B6B9295AAB /* MatrixStack.cpp */; };
+		7D66561BD1814F6392F21D07 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 89FFE00935F046EBB6F7A69C /* glad.c */; };
+		8452AF2AB2BB454EA04FCF8A /* Shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB25FC018E0A4E5BB6B9E45F /* Shape.cpp */; };
+		9B91508648494F4AA3E57EB9 /* WindowManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D8C0436F18C47D1BCB61C07 /* WindowManager.cpp */; };
+		9F971612776D453792909F28 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D2BD58D5DBD4B2C9C16E3C9 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AA257B5980B4F869AB8B4F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B31BFC6B018340B0B93ED287 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 104C6C477D104A478F4B6672;
+			remoteInfo = Final;
+		};
+		E1D23ACE2E094E4CA2D0C081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B31BFC6B018340B0B93ED287 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B667B2CFA20443C18D9BC722;
+			remoteInfo = ZERO_CHECK;
+		};
+		EEEA846D4CD44937A74BBC42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B31BFC6B018340B0B93ED287 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B667B2CFA20443C18D9BC722;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D2BD58D5DBD4B2C9C16E3C9 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		209A0A5048BF4DC893ADD35D /* MatrixStack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MatrixStack.h; path = src/MatrixStack.h; sourceTree = SOURCE_ROOT; };
+		23892BC43A494976AB7297F5 /* WindowManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = WindowManager.h; path = src/WindowManager.h; sourceTree = SOURCE_ROOT; };
+		2D7E354654A748B6B9295AAB /* MatrixStack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MatrixStack.cpp; path = src/MatrixStack.cpp; sourceTree = SOURCE_ROOT; };
+		2E827A4094114329837AB280 /* shader_vertex2.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = shader_vertex2.glsl; path = resources/shader_vertex2.glsl; sourceTree = SOURCE_ROOT; };
+		3052AC32B95B4E2F8E52BA18 /* Final */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Final; sourceTree = BUILT_PRODUCTS_DIR; };
+		33EB1EC0953C476FB527E319 /* GLSL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLSL.cpp; path = src/GLSL.cpp; sourceTree = SOURCE_ROOT; };
+		3C0243635A364759AAE53B62 /* stb_image_write.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image_write.h; path = src/stb_image_write.h; sourceTree = SOURCE_ROOT; };
+		3D8C0436F18C47D1BCB61C07 /* WindowManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WindowManager.cpp; path = src/WindowManager.cpp; sourceTree = SOURCE_ROOT; };
+		40A2A4C8F872465BBA68FC8D /* stb_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image.h; path = src/stb_image.h; sourceTree = SOURCE_ROOT; };
+		42B4CDC230314B52AD902C83 /* glad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glad.h; path = ext/glad/include/glad/glad.h; sourceTree = SOURCE_ROOT; };
+		44183E4222604043B648DF41 /* shader_vertex.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = shader_vertex.glsl; path = resources/shader_vertex.glsl; sourceTree = SOURCE_ROOT; };
+		6057129CCCA14F32B8FB620E /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		699458893D1A4144BA32A263 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6B791B37CA2E4D3F8F8CEA7F /* Shape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Shape.h; path = src/Shape.h; sourceTree = SOURCE_ROOT; };
+		74688D705C364170867C8554 /* shader_fragment.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = shader_fragment.glsl; path = resources/shader_fragment.glsl; sourceTree = SOURCE_ROOT; };
+		89FFE00935F046EBB6F7A69C /* glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = ext/glad/src/glad.c; sourceTree = SOURCE_ROOT; };
+		8C8382A617134ADFAE834173 /* Program.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Program.h; path = src/Program.h; sourceTree = SOURCE_ROOT; };
+		8D40247CCB3B45778C7F3855 /* GLSL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLSL.h; path = src/GLSL.h; sourceTree = SOURCE_ROOT; };
+		953152697E7A48EF859E213E /* shader_fragment2.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = shader_fragment2.glsl; path = resources/shader_fragment2.glsl; sourceTree = SOURCE_ROOT; };
+		B414753EAC4949BBA87E07CA /* tiny_obj_loader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tiny_obj_loader.h; path = src/tiny_obj_loader.h; sourceTree = SOURCE_ROOT; };
+		BB25FC018E0A4E5BB6B9E45F /* Shape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Shape.cpp; path = src/Shape.cpp; sourceTree = SOURCE_ROOT; };
+		C896EF8AF13441D79E97EF21 /* stb_image_resize.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image_resize.h; path = src/stb_image_resize.h; sourceTree = SOURCE_ROOT; };
+		D2FD463176334A4CBADD68CD /* Program.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Program.cpp; path = src/Program.cpp; sourceTree = SOURCE_ROOT; };
+		FA77FF2CAEEF41799F668A8C /* khrplatform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = khrplatform.h; path = ext/glad/include/KHR/khrplatform.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D70E97F617AA4C35B7BC4CB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09A98F6A5DAF4E43840B5D1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3052AC32B95B4E2F8E52BA18 /* Final */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D5A67BD37474C73AD206B12 = {
+			isa = PBXGroup;
+			children = (
+				9B67D66BE8304F588F7E9FE3 /* Final */,
+				DF5AD3EC84BB4B6BB909703A /* ALL_BUILD */,
+				09A98F6A5DAF4E43840B5D1E /* Products */,
+				E674504504F1439B9E2DEA90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B67D66BE8304F588F7E9FE3 /* Final */ = {
+			isa = PBXGroup;
+			children = (
+				9E0B07CCA0334383A2E6CEB0 /* Source Files */,
+				BEBFB3FFF05D4450A5DE69C4 /* Header Files */,
+				699458893D1A4144BA32A263 /* CMakeLists.txt */,
+				74688D705C364170867C8554 /* shader_fragment.glsl */,
+				953152697E7A48EF859E213E /* shader_fragment2.glsl */,
+				44183E4222604043B648DF41 /* shader_vertex.glsl */,
+				2E827A4094114329837AB280 /* shader_vertex2.glsl */,
+			);
+			name = Final;
+			sourceTree = "<group>";
+		};
+		9E0B07CCA0334383A2E6CEB0 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				89FFE00935F046EBB6F7A69C /* glad.c */,
+				33EB1EC0953C476FB527E319 /* GLSL.cpp */,
+				2D7E354654A748B6B9295AAB /* MatrixStack.cpp */,
+				D2FD463176334A4CBADD68CD /* Program.cpp */,
+				BB25FC018E0A4E5BB6B9E45F /* Shape.cpp */,
+				3D8C0436F18C47D1BCB61C07 /* WindowManager.cpp */,
+				1D2BD58D5DBD4B2C9C16E3C9 /* main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BEBFB3FFF05D4450A5DE69C4 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA77FF2CAEEF41799F668A8C /* khrplatform.h */,
+				42B4CDC230314B52AD902C83 /* glad.h */,
+				8D40247CCB3B45778C7F3855 /* GLSL.h */,
+				209A0A5048BF4DC893ADD35D /* MatrixStack.h */,
+				8C8382A617134ADFAE834173 /* Program.h */,
+				6B791B37CA2E4D3F8F8CEA7F /* Shape.h */,
+				23892BC43A494976AB7297F5 /* WindowManager.h */,
+				40A2A4C8F872465BBA68FC8D /* stb_image.h */,
+				C896EF8AF13441D79E97EF21 /* stb_image_resize.h */,
+				3C0243635A364759AAE53B62 /* stb_image_write.h */,
+				B414753EAC4949BBA87E07CA /* tiny_obj_loader.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		D5B6D7FE4CFE47B8A750AE1F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DF5AD3EC84BB4B6BB909703A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D5B6D7FE4CFE47B8A750AE1F /* CMake Rules */,
+				6057129CCCA14F32B8FB620E /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E674504504F1439B9E2DEA90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		104C6C477D104A478F4B6672 /* Final */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B166EE3CBD45768E2E6C0F /* Build configuration list for PBXNativeTarget "Final" */;
+			buildPhases = (
+				FD6E3DAE7FA2432B8817B67D /* Sources */,
+				D70E97F617AA4C35B7BC4CB7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E5C4D7CF4D0478C8FCE1879 /* PBXTargetDependency */,
+			);
+			name = Final;
+			productName = Final;
+			productReference = 3052AC32B95B4E2F8E52BA18 /* Final */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B31BFC6B018340B0B93ED287 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1330;
+			};
+			buildConfigurationList = 723DBDE48E2140BFAF833552 /* Build configuration list for PBXProject "Final" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D5A67BD37474C73AD206B12;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				C9B594E14AAF43F4925CAAA9 /* ALL_BUILD */,
+				104C6C477D104A478F4B6672 /* Final */,
+				B667B2CFA20443C18D9BC722 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		133E798E9A30566A06AD94AF /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+				"/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build/CMakeFiles/ZERO_CHECK",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd \"/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build\"\n  make -f /Users/sam/Desktop/Cal\\ Poly/cpe471/FinalProject/SourceCode/build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd \"/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build\"\n  make -f /Users/sam/Desktop/Cal\\ Poly/cpe471/FinalProject/SourceCode/build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd \"/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build\"\n  make -f /Users/sam/Desktop/Cal\\ Poly/cpe471/FinalProject/SourceCode/build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd \"/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build\"\n  make -f /Users/sam/Desktop/Cal\\ Poly/cpe471/FinalProject/SourceCode/build/CMakeScripts/ReRunCMake.make\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB9AEC8EC68C08222FD5E990 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+				"/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build/CMakeFiles/ALL_BUILD",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd \"/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build\"\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd \"/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build\"\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd \"/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build\"\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd \"/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build\"\n  echo Build\\ all\\ projects\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD6E3DAE7FA2432B8817B67D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D66561BD1814F6392F21D07 /* glad.c in Sources */,
+				15287BF01B504A129F20B488 /* GLSL.cpp in Sources */,
+				57EDDC1FCE0C4A20A1FD7B43 /* MatrixStack.cpp in Sources */,
+				3EB6E5E613A94019B4FC5349 /* Program.cpp in Sources */,
+				8452AF2AB2BB454EA04FCF8A /* Shape.cpp in Sources */,
+				9B91508648494F4AA3E57EB9 /* WindowManager.cpp in Sources */,
+				9F971612776D453792909F28 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E5C4D7CF4D0478C8FCE1879 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B667B2CFA20443C18D9BC722 /* ZERO_CHECK */;
+			targetProxy = EEEA846D4CD44937A74BBC42 /* PBXContainerItemProxy */;
+		};
+		65EE7FC2D09740A888DF0EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 104C6C477D104A478F4B6672 /* Final */;
+			targetProxy = 8AA257B5980B4F869AB8B4F6 /* PBXContainerItemProxy */;
+		};
+		991964406E4A4085AD75B40F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B667B2CFA20443C18D9BC722 /* ZERO_CHECK */;
+			targetProxy = E1D23ACE2E094E4CA2D0C081 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		135ED766EAA94CF8BCC78F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/ext/glad/include\"",
+					/opt/homebrew/Cellar/glfw/3.3.6/include,
+					/opt/homebrew/Cellar/glm/0.9.9.8/include,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "    $(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++0x",
+					"-Wall",
+					"-pedantic",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/opt/homebrew/lib/libglfw.3.3.dylib,
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Final;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build";
+				SYSTEM_HEADER_SEARCH_PATHS = /opt/homebrew/include;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		1D796969C34A452CBD7DFA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build/build";
+			};
+			name = Debug;
+		};
+		22158AAFA98D46F88BEF9044 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/ext/glad/include\"",
+					/opt/homebrew/Cellar/glfw/3.3.6/include,
+					/opt/homebrew/Cellar/glm/0.9.9.8/include,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++0x",
+					"-Wall",
+					"-pedantic",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/opt/homebrew/lib/libglfw.3.3.dylib,
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Final;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build";
+				SYSTEM_HEADER_SEARCH_PATHS = /opt/homebrew/include;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		27781DFF4A5C4239804B8805 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/ext/glad/include\"",
+					/opt/homebrew/Cellar/glfw/3.3.6/include,
+					/opt/homebrew/Cellar/glm/0.9.9.8/include,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++0x",
+					"-Wall",
+					"-pedantic",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/opt/homebrew/lib/libglfw.3.3.dylib,
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Final;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build";
+				SYSTEM_HEADER_SEARCH_PATHS = /opt/homebrew/include;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		4005695D79D94562BC410D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		536DD7832A444DF0831DD0FD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		58DB463826364C79BFF23095 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		5E3428E3B0674C65A0F9EA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/ext/glad/include\"",
+					/opt/homebrew/Cellar/glfw/3.3.6/include,
+					/opt/homebrew/Cellar/glm/0.9.9.8/include,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++0x",
+					"-Wall",
+					"-pedantic",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/opt/homebrew/lib/libglfw.3.3.dylib,
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Final;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build";
+				SYSTEM_HEADER_SEARCH_PATHS = /opt/homebrew/include;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		61B2F220139445B08C991635 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		6AA835A8B5B5444F945BC565 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build/build";
+			};
+			name = MinSizeRel;
+		};
+		6F2D18D7702F4D7484AD5D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		759E0E8D50B54333BE16939C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build/build";
+			};
+			name = Release;
+		};
+		8A2120F47F3C4DA7BB699CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		AC512D099C994D699B176BCB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		B9B51D5E8F7A42C3BAEBCA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		DA6429564D7C4B098F6837CA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sam/Desktop/Cal Poly/cpe471/FinalProject/SourceCode/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		623E29655CB044D29BF1BF85 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B51D5E8F7A42C3BAEBCA6F /* Debug */,
+				8A2120F47F3C4DA7BB699CC9 /* Release */,
+				AC512D099C994D699B176BCB /* MinSizeRel */,
+				61B2F220139445B08C991635 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		723DBDE48E2140BFAF833552 /* Build configuration list for PBXProject "Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D796969C34A452CBD7DFA0C /* Debug */,
+				759E0E8D50B54333BE16939C /* Release */,
+				6AA835A8B5B5444F945BC565 /* MinSizeRel */,
+				58DB463826364C79BFF23095 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F4B166EE3CBD45768E2E6C0F /* Build configuration list for PBXNativeTarget "Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				135ED766EAA94CF8BCC78F7A /* Debug */,
+				5E3428E3B0674C65A0F9EA28 /* Release */,
+				22158AAFA98D46F88BEF9044 /* MinSizeRel */,
+				27781DFF4A5C4239804B8805 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F7194794AB2E47C2B5B0AC07 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2D18D7702F4D7484AD5D8A /* Debug */,
+				4005695D79D94562BC410D82 /* Release */,
+				536DD7832A444DF0831DD0FD /* MinSizeRel */,
+				DA6429564D7C4B098F6837CA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B31BFC6B018340B0B93ED287 /* Project object */;
+}
